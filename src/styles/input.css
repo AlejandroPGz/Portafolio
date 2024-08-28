@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .root {
+      @apply w-full h-full bg-bunker-300;
+    }
+  }
