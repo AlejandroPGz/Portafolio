@@ -6,4 +6,10 @@
     .root {
       @apply w-full h-full bg-bunker-300;
     }
+    .links-nav-pc {
+      @apply text-bunker-950 font-semibold hover:cursor-pointer hover:text-bunker-500;
+    }
+    .links-nav-mobile {
+      @apply text-bunker-900 text-center font-semibold hover:cursor-pointer hover:text-bunker-500;
+    }
   }
