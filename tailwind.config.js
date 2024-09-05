@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{html,js,jsx}", "./index.html"],
   theme: {
     extend: {
+      height: {
+        "div": "30rem"
+      },
       colors: {
         'midnight': {
         '50': '#eff7ff',

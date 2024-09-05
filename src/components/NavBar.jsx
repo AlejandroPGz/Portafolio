@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { HashLink } from 'react-router-hash-link';
 
 export default function NavBar() {
 
@@ -14,25 +15,32 @@ export default function NavBar() {
         <svg className='w-8 md:w-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 6H20M4 12H14M4 18H9" stroke="#272D53" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>        
         </button>
         <ul className='hidden md:flex flex-row gap-4'>
-          <img className="w-6 hover:cursor-pointer" src="src\assets\github.svg" alt="github_icon" />
+          
+          <a href="https://github.com/AlejandroPGz"><img className="w-6 hover:cursor-pointer" src="src\assets\github.svg" alt="github_icon" /></a>
+          <a href="https://www.linkedin.com/in/alejandro-paradiso-498b3a2a1/">
           <img className="w-6 hover:cursor-pointer" src="src\assets\linke.svg" alt="github_icon" />
+          </a>
         </ul>
         <ul className='hidden md:flex flex-row gap-4'>
-            <a to="/" className='links-nav-pc'>Skills</a>
-            <a to="/docs" className='links-nav-pc'>Proyects</a>
-            <a className='links-nav-pc'>Education</a>
+            <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#skills" className='links-nav-pc'>Skills</HashLink>
+            <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#proyects" className='links-nav-pc'>Proyects</HashLink>
+            <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#education" className='links-nav-pc'>Education</HashLink>
         </ul>
-        <div className={`md:hidden absolute top-12 left-0 w-full bg-bunker-200 rounded-b-lg flex flex-col items-center justify-center transform transition-transform py-3
+        <div className={`md:hidden absolute top-12 left-0 w-full bg-bunker-50 rounded-b-lg flex flex-col items-center justify-center transform transition-transform py-3
           ${isMenuOpen? "opacity-100" : "opacity-0"}`}
           style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}
           >
           <ul className='flex flex-col gap-4 text-center'>
-            <a to="/" className='links-nav-mobile'>Skills</a>
-            <a to="/docs" className='links-nav-mobile'>Proyects</a>
-            <a className='links-nav-mobile'>Education</a>
+            <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#skills" clLinkssName='links-nav-mobile'>Skills</HashLink>
+            <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#proyects" className='links-nav-mobile'>Proyects</HashLink>
+            <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#education" className='links-nav-mobile'>Education</HashLink>
             <ul className='flex flex-row gap-4'>
+            <a href="https://github.com/AlejandroPGz">
             <img className="w-6 hover:cursor-pointer" src="src\assets\github.svg" alt="github_icon" />
-            <img className="w-6 hover:cursor-pointer" src="src\assets\linke.svg" alt="github_icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/alejandro-paradiso-498b3a2a1/">
+            <img className="w-6 hover:cursor-pointer" src="src\assets\linke.svg" alt="linkedin" />
+            </a>
             </ul>
           </ul>
         </div>

@@ -4,12 +4,30 @@
 
 @layer components {
     .root {
-      @apply w-full h-full bg-bunker-300;
+      @apply w-full h-full bg-bunker-200 absolute top-6 left-0;
     }
     .links-nav-pc {
       @apply text-bunker-950 font-semibold hover:cursor-pointer hover:text-bunker-500;
     }
     .links-nav-mobile {
       @apply text-bunker-900 text-center font-semibold hover:cursor-pointer hover:text-bunker-500;
+    }
+    .skills-div {
+      @apply flex flex-col justify-center items-center w-20 md:w-24 h-32 bg-bunker-100 rounded-lg p-2;
+    }
+    .skill-text {
+      @apply text-midnight-900 text-center font-bold;
+    }
+    .education-div {
+      @apply flex flex-col justify-center items-center w-40 h-60 bg-bunker-50 rounded-lg p-2 gap-2;
+    }
+    .education-text {
+      @apply text-bunker-700 text-center font-semibold;
+    }
+    .education-img {
+      @apply w-full h-20 rounded-xl;
+    }
+    .div-proyects {
+      @apply w-64 h-div flex flex-col items-center justify-center bg-bunker-100 text-center border border-midnight-900 rounded-2xl p-2 gap-2;
     }
   }
