@@ -1,7 +1,7 @@
-import { Presentation } from './sections/presentation';
-import { Skills } from './sections/Skills';
-import { Proyects } from './sections/Proyects';
-import { Education } from './sections/Education';
+import { Presentation } from './Presentation';
+import { Skills } from './Skills';
+import { Proyects } from './Proyects';
+import { Education } from './Education';
 
 export const Home = () => {
     return (
