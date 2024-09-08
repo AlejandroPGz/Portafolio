@@ -8,7 +8,8 @@ export const Proyects = () => {
                         <div className='div-proyects'>
                             <span className='text-xl text-bunker-800 font-semibold'>Venezuela Quizz Game</span>
                             <span className='text-lg text-bunker-600 font-semibold'>A game made with react native and expo</span>
-                            <span className='text-lg text-bunker-400 underline hover:cursor-pointer'>Descargar en Play Store</span>
+                            <a href="https://expo.dev/accounts/pitupiri/projects/Venezuela_Quizz/builds/e2947af8-5acc-4e84-a4b5-31fc55fac8dd" className='text-lg text-bunker-400 underline hover:cursor-pointer'>Download APK from expo</a>
+                            <span className='text-base text-bunker-400'>(It will soon be available for Android in Google Play)</span>
                             <img className='w-3/5 h-60 rounded-xl' src="/game.png" alt="" />
                         </div>
                         <div className='div-proyects'>
