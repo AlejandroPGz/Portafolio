@@ -4,7 +4,6 @@ import { HashLink } from 'react-router-hash-link';
 export default function NavBar() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  console.log(isMenuOpen);
   
   return (
     <>
@@ -27,11 +26,11 @@ export default function NavBar() {
             <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#education" className='links-nav-pc'>Education</HashLink>
         </ul>
         <div className={`md:hidden absolute top-12 left-0 w-full bg-bunker-50 rounded-b-lg flex flex-col items-center justify-center transform transition-transform py-3
-          ${isMenuOpen? "opacity-100" : "opacity-0"}`}
+          ${isMenuOpen? "opacity-100" : "opacity-0 -translate-x-2/4"}`}
           style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}
           >
           <ul className='flex flex-col gap-4 text-center'>
-            <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#skills" clLinkssName='links-nav-mobile'>Skills</HashLink>
+            <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#skills" className='links-nav-mobile'>Skills</HashLink>
             <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#proyects" className='links-nav-mobile'>Proyects</HashLink>
             <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#education" className='links-nav-mobile'>Education</HashLink>
             <ul className='flex flex-row gap-4'>
@@ -44,10 +43,12 @@ export default function NavBar() {
             </ul>
           </ul>
         </div>
-        <button className="bg-bunker-300 hover:bg-bunker-400 rounded-full px-4 py-1 hover:cursor-pointer text-center text-white font-semibold transition-all"
+        <a className="bg-bunker-300 hover:bg-bunker-400 rounded-full px-4 py-1 hover:cursor-pointer text-center text-white font-semibold transition-all"
+         href="/Curriculum_Alejandro_Paradiso.pdf"
+         download
         >
           Currículum
-        </button>
+        </a>
     </nav>
     </>
   )

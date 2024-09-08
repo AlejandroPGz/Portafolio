@@ -25,7 +25,7 @@
       @apply text-bunker-700 text-center font-semibold;
     }
     .education-img {
-      @apply w-full h-20 rounded-xl;
+      @apply h-20 rounded-xl;
     }
     .div-proyects {
       @apply w-64 h-div flex flex-col items-center justify-center bg-bunker-100 text-center border border-midnight-900 rounded-2xl p-2 gap-2;
