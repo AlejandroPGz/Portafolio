@@ -6,39 +6,39 @@ export const Skills = () => {
                     <h4 className='text-xl font-medium text-bunker-700 mb-2'>Skills & Tools</h4>
                     <ul className='flex flex-row flex-wrap gap-2 justify-center items-center'>
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\node.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/node.svg" alt="node" />
                             <span className='skill-text'>Node JS</span>
                         </div>
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\express.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/express.svg" alt="node" />
                             <span className='skill-text'>Express</span>
                         </div>
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\js.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/js.svg" alt="node" />
                             <span className='skill-text'>Javascript</span>
                         </div>
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\react.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/react.svg" alt="node" />
                             <span className='skill-text'>React JS</span>
                         </div>                        
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\mongo.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/mongo.svg" alt="node" />
                             <span className='skill-text'>Mongo DB</span>
                         </div>                        
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\sql.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/sql.svg" alt="node" />
                             <span className='skill-text'>SQL</span>
                         </div>
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\expo.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/expo.svg" alt="node" />
                             <span className='skill-text'>Expo</span>
                         </div>                        
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\vite.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/vite.svg" alt="node" />
                             <span className='skill-text'>Vite</span>
                         </div>
                         <div className='skills-div'>
-                            <img className='w-full h-1/2' src="src\assets\tail.svg" alt="node" />
+                            <img className='w-full h-1/2' src="/tail.svg" alt="node" />
                             <span className='skill-text'>Tailwind CSS</span>
                         </div>
                     </ul>

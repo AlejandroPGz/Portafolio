@@ -15,9 +15,9 @@ export default function NavBar() {
         </button>
         <ul className='hidden md:flex flex-row gap-4'>
           
-          <a href="https://github.com/AlejandroPGz"><img className="w-6 hover:cursor-pointer" src="src\assets\github.svg" alt="github_icon" /></a>
+          <a href="https://github.com/AlejandroPGz"><img className="w-6 hover:cursor-pointer" src="/github.svg" alt="github_icon" /></a>
           <a href="https://www.linkedin.com/in/alejandro-paradiso-498b3a2a1/">
-          <img className="w-6 hover:cursor-pointer" src="src\assets\linke.svg" alt="github_icon" />
+          <img className="w-6 hover:cursor-pointer" src="/linke.svg" alt="github_icon" />
           </a>
         </ul>
         <ul className='hidden md:flex flex-row gap-4'>
@@ -35,10 +35,10 @@ export default function NavBar() {
             <HashLink scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to="#education" className='links-nav-mobile'>Education</HashLink>
             <ul className='flex flex-row gap-4'>
             <a href="https://github.com/AlejandroPGz">
-            <img className="w-6 hover:cursor-pointer" src="src\assets\github.svg" alt="github_icon" />
+            <img className="w-6 hover:cursor-pointer" src="/github.svg" alt="github_icon" />
             </a>
             <a href="https://www.linkedin.com/in/alejandro-paradiso-498b3a2a1/">
-            <img className="w-6 hover:cursor-pointer" src="src\assets\linke.svg" alt="linkedin" />
+            <img className="w-6 hover:cursor-pointer" src="/linke.svg" alt="linkedin" />
             </a>
             </ul>
           </ul>

@@ -9,13 +9,13 @@ export const Proyects = () => {
                             <span className='text-xl text-bunker-800 font-semibold'>Venezuela Quizz Game</span>
                             <span className='text-lg text-bunker-600 font-semibold'>A game made with react native and expo</span>
                             <span className='text-lg text-bunker-400 underline hover:cursor-pointer'>Descargar en Play Store</span>
-                            <img className='w-3/5 h-60 rounded-xl' src="src\assets\game.png" alt="" />
+                            <img className='w-3/5 h-60 rounded-xl' src="/game.png" alt="" />
                         </div>
                         <div className='div-proyects'>
                             <span className='text-xl text-bunker-800 font-semibold'>Vzl API</span>
                             <span className='text-lg text-bunker-600 font-semibold'>An API that provides information about Venezuela, like states, capitals...</span>
                             <a href='https://vzla-api-page.onrender.com/' className='text-lg text-bunker-400 underline hover:cursor-pointer'>Pagina Oficial</a>
-                            <img className='w-3/5 h-60 rounded-xl' src="src\assets\ss.jpg" alt="" />
+                            <img className='w-3/5 h-60 rounded-xl' src="/ss.jpg" alt="" />
                         </div>
                     </ul>
                 </div>
