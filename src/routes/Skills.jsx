@@ -1,9 +1,13 @@
+import { useTranslation } from "react-i18next";
+
 export const Skills = () => {
+    const { t } = useTranslation();
+    
     return (
         
                       <section id="skills" className='w-full flex justify-center items-center max-h-max px-4'>
                 <div className='w-full md:w-2/4 max-w-max flex flex-col gap-2 justify-center items-center text-center max-h-max border-b border-midnight-900 py-4'>
-                    <h4 className='text-xl font-medium text-bunker-700 mb-2'>Skills & Tools</h4>
+                    <h4 className='text-xl font-medium text-bunker-700 mb-2'>{t("skills")}</h4>
                     <ul className='flex flex-row flex-wrap gap-2 justify-center items-center'>
                         <div className='skills-div'>
                             <img className='w-full h-1/2' src="/node.svg" alt="node" />

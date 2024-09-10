@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 export const Education = () => {
+    const { t } = useTranslation();
+
     return (
         
                        <section id="education" className='w-full flex justify-center items-center max-h-max px-4'>
@@ -8,20 +12,20 @@ export const Education = () => {
                         <div className='education-div'>
                             <img className='education-img w-full' src="/usm.jpeg" alt="node" />
                             <span className='skill-text'>Universidad Santa Maria</span>
-                            <span className='education-text'>Ingeniería en sistemas</span>
-                            <span className='education-text'>En curso</span>
+                            <span className='education-text'>{t("careerUSM")}</span>
+                            <span className='education-text'>{t("careerProgress")}</span>
                         </div>
                         <div className='education-div'>
                             <img className='education-img w-9/12' src="/usb.gif" alt="node" />
                             <span className='skill-text'>Universidad Simón Bolívar</span>
-                            <span className='education-text'>Ingeniería Geofísica</span>
-                            <span className='education-text'>En curso</span>
+                            <span className='education-text'>{t("careerUSB")}</span>
+                            <span className='education-text'>{t("careerProgress")}</span>
                         </div>
                         <div className='education-div'>
                             <img className='education-img w-full' src="/edte.png" alt="node" />
                             <span className='skill-text'>Neo Universidad EDTecnica</span>
-                            <span className='education-text'>Programación Full Stack</span>
-                            <span className='education-text'>Finalizado 2024</span>
+                            <span className='education-text'>{t("edt")}</span>
+                            <span className='education-text'>{t("finalized")} 2024</span>
                         </div>
                     </ul>
                 </div>
