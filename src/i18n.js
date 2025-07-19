@@ -5,7 +5,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
     eng: {
         translation: {
-            presentation: "Hi! I'm a passionate software developer with experience in a variety of programming languages and technologies. My goal is to create elegant and efficient solutions that solve real-world problems. I'm constantly diving into new languages and libraries to stay up to date and improve my skills",
+            presentation: "Hi! I'm a passionate software developer with experience in a variety of programming languages and technologies. \n My goal is to create elegant and efficient solutions that solve real-world problems. I'm constantly diving into new languages and libraries to stay up to date and improve my skills",
             btnChangeLanguage: "Es",
             resume: "Resume",
             profession: "Full Stack Developer",
@@ -13,7 +13,7 @@ const resources = {
             proyects: "Proyects",
             education: "Education",
             gameDesc: "A game made with react native and expo",
-            linkGame: "Download APK from expo",
+            linkGame: "Download APK from Google Drive",
             gameMsg: "It will soon be available for Android in Google Play",
             apiDesc: "An API that provides information about Venezuela, like states, capitals...",
             apiLink: "Official page",
@@ -34,7 +34,7 @@ const resources = {
             proyects: "Proyectos",
             education: "Educación",
             gameDesc: "Un juego estilo quizz hecho con React Native y Expo",
-            linkGame: "Descarga la APK desde Expo",
+            linkGame: "Descarga la APK desde Google Drive",
             gameMsg: "Pronto estará disponible en la Play Store",
             apiDesc: "Una API que proporciona información sobre Venezuela, como estados, capitales...",
             apiLink: "Página Oficial",
