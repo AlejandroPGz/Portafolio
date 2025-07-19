@@ -28,6 +28,6 @@
       @apply h-20 rounded-xl;
     }
     .div-proyects {
-      @apply w-80 h-div flex flex-col items-center justify-center bg-zinc-100 text-center border border-midnight-900 rounded-2xl p-2 gap-2;
+      @apply w-72 h-div flex flex-col items-center justify-center bg-zinc-100 text-center border border-midnight-900 rounded-2xl p-2 gap-2;
     }
   }

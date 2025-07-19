@@ -10,7 +10,7 @@ export default function NavBar() {
 
   return (
     <>
-  <nav className="w-full h-12 bg-zinc-500 flex flex-row items-center justify-between px-4 xl:justify-around fixed top-0 left-0 z-10">
+  <nav className="w-full h-12 bg-zinc-400 flex flex-row items-center justify-between px-4 xl:justify-around fixed top-0 left-0 z-10">
         <button
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         className='hover:cursor-pointer md:hidden transition-all hover:bg-zinc-600 p-1 rounded-xl'>

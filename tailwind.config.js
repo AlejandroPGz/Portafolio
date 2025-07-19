@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       height: {
-        "div": "30rem"
+        "div": "34rem"
       },
       colors: {
         'midnight': {
