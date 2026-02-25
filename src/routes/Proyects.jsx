@@ -9,10 +9,20 @@ export const Proyects = () => {
                     <h4 className='text-xl font-semibold text-zinc-900 mb-2'>{t("proyects")}</h4>
                     <ul className='flex flex-row flex-wrap gap-2 justify-center items-center'>
                         <div className='div-proyects'>
+                            <span className='text-xl text-zinc-800 font-semibold'>FegaSys</span>
+                            <span className='text-lg text-zinc-600 font-semibold'>{t("fegaDesc")}</span>
+                            <img className='w-4/5 h-40 rounded-xl object-scale-down' src="/fega.png" alt="" />
+                            <div className="w-full flex flex-row p-2 gap-4 justify-center items-center
+                            ">
+                                <img className="w-6 h-6" src="/net.png" alt=".net" />
+                                <img className="w-10 h-6" src="/qslite.svg" alt="sqlite" />
+                                <img className="w-8 h-8" src="/csharp.png" alt="csharp" />
+                            </div>
+                        </div>
+                        <div className='div-proyects'>
                             <span className='text-xl text-zinc-800 font-semibold'>Venezuela Quizz Game</span>
                             <span className='text-lg text-zinc-600 font-semibold'>{t("gameDesc")}</span>
-                            <a href="https://drive.google.com/drive/folders/1Px0zHu4fvlNCXAqADXqIcANedcZVTmtM" className='text-lg text-zinc-400 underline hover:cursor-pointer'>{t("linkGame")}</a>
-                            <span className='text-base text-zinc-400'>({t("gameMsg")})</span>
+                            <a href="https://drive.google.com/drive/folders/1Px0zHu4fvlNCXAqADXqIcANedcZVTmtM" className='text-lg text-zinc-400 underline hover:cursor-pointer'>{t("linkGame")}</a>             
                             <img className='w-3/5 h-60 rounded-xl' src="/game.png" alt="" />
                             <div className="w-full flex flex-row p-2 gap-4 justify-center items-center
                             ">

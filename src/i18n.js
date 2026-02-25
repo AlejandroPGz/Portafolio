@@ -21,7 +21,8 @@ const resources = {
             careerUSB: "Geophysical engineering",
             edt: "Full Stack Course",
             careerProgress: "In progress",
-            finalized: "Finalized"
+            finalized: "Finalized",
+            fegaDesc: "Administrative system for an auto repair shop"
         }
     },
     es: {
@@ -42,7 +43,8 @@ const resources = {
             careerUSB: "Ingeniería Geofísica",
             edt: "Programación Full Stack",
             careerProgress: "En curso",
-            finalized: "Finalizado"
+            finalized: "Finalizado",
+            fegaDesc: "Sistema administrativo para un taller mecánico"
         }
     }
 };

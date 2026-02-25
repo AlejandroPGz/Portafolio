@@ -46,8 +46,12 @@ export const Skills = () => {
                             <span className='skill-text'>Tailwind CSS</span>
                         </div>
                             <div className='skills-div'>
-                            <img className='w-full h-1/2' src="/cmas.svg" alt="node" />
-                            <span className='skill-text'>C++</span>
+                            <img className='w-3/4 h-1/2' src="/csharp.png" alt="node" />
+                            <span className='skill-text'>C#</span>
+                        </div>
+                            <div className='skills-div'>
+                            <img className='w-3/4 h-1/2' src="/net.png" alt="node" />
+                            <span className='skill-text'>.NET MAUI</span>
                         </div>
                     </ul>
                 </div>

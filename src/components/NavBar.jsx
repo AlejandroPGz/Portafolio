@@ -55,7 +55,7 @@ export default function NavBar() {
         <LngBtn />
         </div>
         <a className="bg-zinc-700 hover:bg-zinc-400 rounded-full px-4 py-1 hover:cursor-pointer text-center text-zinc-100 font-semibold transition-all"
-         href="/Curriculum_Alejandro_Paradiso.pdf"
+         href="/AP.Curriculum.pdf"
          download>
           {t("resume")}
         </a>
